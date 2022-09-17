@@ -5,6 +5,7 @@ public class InputStreamFirstExample {
     public static void main(String[] args) throws Exception {
         byte[] array;
 
+
         try{
             InputStream input = new FileInputStream("src/main/resources/input.txt");
             System.out.println("Available bytes in the file: " + input.available());
